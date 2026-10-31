@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist_pkg/
+.venv/
+venv/
+.env
+
+# PyInstaller 编译中间产物（build_exe.bat 会生成）
+ml702_battery/build/
+*.spec
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini
